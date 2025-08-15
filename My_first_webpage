@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head Section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isagi Yoichi Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            margin: 0;
+            padding: 30px;
+        }
+        h1, h2 {
+            color: #38bdf8;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #38bdf8;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+        img, video, audio {
+            display: block;
+            margin: 30px auto;
+            border-radius: 30px;
+        }
+        .highlight {
+            color: yellow;
+            font-weight: bold;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: auto;
+        }
+        form {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #38bdf8;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Title -->
+    <h1>Isagi Yoichi</h1>
+
+    <!-- Paragraph with formatting -->
+    <p>
+        <strong>Isagi Yoichi</strong> is a fictional character from the anime/manga <em>Blue Lock</em>.  
+        Known for his <u>amazing spatial awareness</u>,  
+        he is a <span class="highlight">true egoist</span> on the field.
+    </p>
+
+    <!-- Lists -->
+    <h2>Traits</h2>
+    <ul>
+        <li>Great positioning</li>
+        <li>Team-oriented, yet egoistic</li>
+        <li>Metavision ability</li>
+    </ul>
+
+    <h2>Top Skills</h2>
+    <ol>
+        <li>Spatial Awareness</li>
+        <li>Adaptability</li>
+        <li>Playmaking</li>
+    </ol>
+
+    <!-- Anchor -->
+    <p>
+        Learn more on the  
+        <a href="https://bluelock.fandom.com/wiki/Yoichi_Isagi" target="_blank">Blue Lock Wiki</a>.
+    </p>
+
+    <!-- Multimedia -->
+    <h2>Media</h2>
+    <img src="isagi.jpg" alt="Isagi Yoichi" width="500">
+    <audio controls>
+        <source src="isagi3.mp3" type="audio/mpeg">
+    </audio>
+    <video controls width="600">
+        <source src="isagi4.mp4" type="video/mp4">
+    </video>
+
+    <!-- Table -->
+    <h2>Stats</h2>
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Awareness</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Finishing</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Passing</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Speed</td>
+            <td>8</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h2>Fan Feedback</h2>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter name">
+
+        <label for="fav">Favorite Trait:</label>
+        <select id="fav" name="fav">
+            <option value="awareness">Awareness</option>
+            <option value="finishing">Finishing</option>
+            <option value="passing">Passing</option>
+        </select>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Type your thoughts"></textarea>
+
+        <input type="submit" value="Send Feedback">
+    </form>
+
+</div>
+
+<!-- This is a comment: I love Blue Lock -->
+</body>
+</html>
